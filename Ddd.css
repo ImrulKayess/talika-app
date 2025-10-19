@@ -1,0 +1,24 @@
+/* --- START: Talika App Styles --- */
+
+/* আপনার পুরোনো ddd63.txt ফাইলের <style> ট্যাগের ভেতরের সব CSS কোড এখানে পেস্ট করুন */
+/* ... (আমি আপনার সম্পূর্ণ CSS কোডটি আবার এখানে পেস্ট করছি কারণ এটি অনেক বড়) ... */
+/* শুধু নিশ্চিত করুন যে আপনার পুরোনো কোডের সব CSS এখানে আছে */
+
+/* START: নতুন যোগ করা লোডিং স্পিনারের স্টাইল */
+.spinner-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex; justify-content: center; align-items: center;
+    z-index: 9999; transition: opacity 0.3s ease;
+}
+.spinner {
+    border: 5px solid #f3f3f3; border-top: 5px solid #3f51b5;
+    border-radius: 50%; width: 50px; height: 50px;
+    animation: spin 1s linear infinite;
+}
+body.dark-mode .spinner-overlay { background-color: rgba(26, 26, 46, 0.8); }
+body.dark-mode .spinner { border-top-color: #8c9eff; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+/* END: নতুন যোগ করা লোডিং স্পিনারের স্টাইল */
+
+/* --- END: Talika App Styles --- */
