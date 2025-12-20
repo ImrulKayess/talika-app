@@ -17,9 +17,9 @@ if (uri.indexOf("?m=1") > 0) {
     <meta name="description" content="Talika.xyz - একটি সহজ এবং শক্তিশালী অনলাইন কেনাকাটার তালিকা এবং ব্যক্তিগত হিসাব খাতা। আপনার দৈনন্দিন কেনাকাটা ও আয়-ব্যয়ের হিসাব সহজ করুন।">
     <!-- END: SEO Meta Tag Added -->
 
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="https://cdn.jsdelivr.net/gh/ImrulKayess/talika-app/manifest.json">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/ImrulKayess/talika-app/icons/icon-192x192.png">
 
     <!-- jsPDF library for PDF generation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -8606,7 +8606,7 @@ if (adminBtn) {
         // Registering Service Worker
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('firebase-messaging-sw.js')
+            navigator.serviceWorker.register('https://cdn.jsdelivr.net/gh/ImrulKayess/talika-app/firebase-messaging-sw.js')
                 .then(registration => {
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 })
