@@ -9,6 +9,7 @@
   "theme_color": "#3f51b5",
   "lang": "bn-BD",
   "orientation": "portrait-primary",
+  "gcm_sender_id": "103953800507",
   "icons": [
     {
       "src": "https://cdn.jsdelivr.net/gh/ImrulKayess/talika-app/icons/icon-72x72.png",
